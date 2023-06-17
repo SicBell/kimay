@@ -9,9 +9,11 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.mygdx.game.Entities.Board;
 import com.mygdx.game.Entities.GameObject;
 import com.mygdx.game.Entities.Snake;
+import com.mygdx.game.Scorer;
 import com.mygdx.game.asset.Asset;
+import com.mygdx.game.asset.SoundPlayer;
 
-public class SnakeGame {
+public class Snake_Game {
 
     private static final int WIDTH = Gdx.graphics.getWidth();
     private static final int HEIGHT = Gdx.graphics.getHeight();
@@ -91,8 +93,8 @@ public class SnakeGame {
             font.draw(batch, "Press any key to continue", (WIDTH - 250) / 2, (HEIGHT + 50) / 2);
         }
 
-        font.draw(batch, "Score: " + Scorer.getScore(), GameInfo.SCALE / 2, GameInfo.SCREEN_HEIGHT - 10);
-        font.draw(batch, "Size: " + snake.getBody().size(), GameInfo.SCALE / 2, GameInfo.SCREEN_HEIGHT - 40);
+        font.draw(batch, "Score: " + Scorer.getScore(), Info.SCALE / 2, Info.SCREEN_HEIGHT - 10);
+        font.draw(batch, "Size: " + snake.getBody().size(), Info.SCALE / 2, Info.SCREEN_HEIGHT - 40);
     }
 
 }
