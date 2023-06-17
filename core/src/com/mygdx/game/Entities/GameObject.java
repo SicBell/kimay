@@ -3,13 +3,8 @@ package com.mygdx.game.Entities;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import dev.ian.snakeboi.game.GameInfo;
+import com.mygdx.game.GameInfo;
 
-/**
- * Created by: Ian Parcon
- * Date created: Aug 23, 2018
- * Time created: 3:05 PM
- */
 public class GameObject {
 
     protected Sprite sprite;

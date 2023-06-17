@@ -3,16 +3,10 @@ package com.mygdx.game.Entities;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 
-import dev.ian.snakeboi.game.GameInfo;
-import dev.ian.snakeboi.asset.Asset;
+import com.mygdx.game.GameInfo;
+import com.mygdx.game.asset.Asset;
 
-import static dev.ian.snakeboi.game.GameInfo.SCALE;
-
-/**
- * Created by: Ian Parcon
- * Date created: Aug 29, 2018
- * Time created: 10:09 AM
- */
+import static com.mygdx.game.GameInfo.SCALE;
 public class Board {
 
     private Cell[][] cells;

@@ -2,15 +2,10 @@ package com.mygdx.game.Entities;
 
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
-import dev.ian.snakeboi.Direction;
+import com.mygdx.game.Direction;
 
-import static dev.ian.snakeboi.game.GameInfo.SCALE;
+import static com.mygdx.game.GameInfo.SCALE;
 
-/**
- * Created by: Ian Parcon
- * Date created: Aug 29, 2018
- * Time created: 10:09 AM
- */
 public class Cell extends GameObject {
 
 
