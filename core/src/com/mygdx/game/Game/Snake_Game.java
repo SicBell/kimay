@@ -26,7 +26,7 @@ public class Snake_Game {
     private GameObject food;
     private boolean isGameOver;
 
-    public SnakeGame() {
+    public Snake_Game() {
         TextureAtlas atlas = Asset.instance().get(Asset.SNAKE_PACK);
         font = Asset.instance().get(Asset.PIXEL_FONT);
         snake = new Snake(atlas);
