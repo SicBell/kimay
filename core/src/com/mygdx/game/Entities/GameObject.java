@@ -3,7 +3,8 @@ package com.mygdx.game.Entities;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.mygdx.game.GameInfo;
+import com.mygdx.game.Game.Info;
+
 
 public class GameObject {
 
@@ -26,7 +27,7 @@ public class GameObject {
 
     public GameObject(Sprite sprite) {
         this.sprite = sprite;
-        setSize(GameInfo.SCALE, GameInfo.SCALE);
+        setSize(Info.SCALE, Info.SCALE);
     }
 
 

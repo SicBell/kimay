@@ -3,10 +3,12 @@ package com.mygdx.game.Entities;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 
-import com.mygdx.game.GameInfo;
+import com.mygdx.game.Game.Info;
+
 import com.mygdx.game.asset.Asset;
 
-import static com.mygdx.game.GameInfo.SCALE;
+import static com.mygdx.game.Game.Info.SCALE;
+
 public class Board {
 
     private Cell[][] cells;
@@ -68,11 +70,11 @@ public class Board {
     }
 
     private float foodRandX() {
-        return MathUtils.random(1, GameInfo.BOARD_WIDTH - 1) * SCALE;
+        return MathUtils.random(1, Info.BOARD_WIDTH - 1) * SCALE;
     }
 
     private float foodRandY() {
-        return MathUtils.random(1, GameInfo.BOARD_HEIGHT - 1) * SCALE;
+        return MathUtils.random(1, Info.BOARD_HEIGHT - 1) * SCALE;
     }
 
     public void reset() {
