@@ -9,6 +9,7 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.mygdx.game.Entities.Board;
 import com.mygdx.game.Entities.GameObject;
 import com.mygdx.game.Entities.Snake;
+import com.mygdx.game.asset.Asset;
 
 public class SnakeGame {
 
