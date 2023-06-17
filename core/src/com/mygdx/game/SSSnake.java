@@ -15,7 +15,7 @@ public class SSSnake {
         batch = new SpriteBatch();
         game = new SnakeGame();
     }
-
+    ///hai
     @Override
     public void render() {
         game.update(Gdx.graphics.getDeltaTime());
